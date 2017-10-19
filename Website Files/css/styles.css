@@ -1,0 +1,234 @@
+/* Colors
+#365f4c; Dark Blue Grey
+#808080; Dark Grey
+#6fc5d6; Light Teal
+#fafafa; Off White
+#681f6c; Purple 
+*/
+
+
+
+
+.bgimage-home {
+	background-attachment: fixed;
+	background-image: url('../img/tablet.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/* Nav Bar */
+
+.navbar-default {
+	background-color: transparent;
+ 	border: none;
+  	margin-bottom: 0px;
+}
+.navbar-toggle {
+	background-color: transparent;
+	border: none;
+	color: transparent;
+}
+
+.navbar-default .navbar-brand {
+color: #fff;
+font-size: 2.5em;
+}
+
+.navbar-default .navbar-brand a:hover {
+	color: #fff;
+}
+.navbar-default .navbar-nav {
+font-size: 1.3em;
+font-weight: 500;
+}	
+	.navbar-default .navbar-nav > li > a:hover {
+		color: #808080; /* Dark Grey */
+	}
+
+
+
+
+/* Dropdown */
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #000;
+}
+
+.navbar-default .navbar-collapse > ul {
+	text-align: center;
+}
+
+
+	/* Nav Link Color */
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  text-shadow: 0 1px 0 rga(255,255, 255, .25);
+}
+	/***Link Color Hover Statr***/
+
+
+	/***Link Background and Color Active State***/
+
+
+
+	/* Hero Area */
+.outer {
+	display: table;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+.inner {
+	color: #fff;
+	display: block;
+	display: table-cell;
+	height: 520px;
+	margin: none;
+	padding-top: 80px;
+	vertical-align: middle;
+}
+.inner-2 {
+	display: table-row;
+	height: 100px;
+	margin: none;
+	vertical-align: middle;
+}
+
+
+.group {
+	display: block;
+	text-align: center;
+}
+.group-2 {
+	text-align: center;
+}
+
+.name {
+	font-family: 'Croissant One', cursive;
+}
+.central {
+	font-size: 65px;
+}
+
+.last-name, .job {
+	font-size: 18px;
+}
+
+.fa {
+	color: #fff;
+	display: block;
+	font: 5rem;
+	padding-top: px;
+}
+.fa a:hover {
+	text-decoration: none;
+}
+
+
+
+/*Portfolio*/
+.port-header {
+	padding: 40px 0;
+}
+.port-name {
+	color: #364F4C;
+}
+
+
+/* Footer */
+
+footer {
+	border-top: 2px solid #6fc5d6; /* Light Teal*/
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+.footer-nav {
+	display: inline;
+}
+
+.icon-edit {
+	color: #365f4c; /* Dark Blue Grey*/
+	padding-top: 20px;
+}
+
+.foot > li > a {
+	color: #365f4c;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+	.foot > li {
+			list-style-type: none;
+	}
+
+.linkedin {
+	text-decoration: none;
+}
+.twitter {
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 767px) {
+	.navbar-default .scroll {
+	 background-color: #364F4C;
+	    /* For WebKit (Safari, Chrome, etc) */
+	    background: #364F4C -webkit-gradient(linear, left top, left bottom, from(#36414F), to(#364F4C)) no-repeat;
+	    /* Mozilla,Firefox/Gecko */
+	    background: #364F4C -moz-linear-gradient(top, #36414F, #364F4C) no-repeat;
+	    /* IE 5.5 - 7 */
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#364F4C) no-repeat;
+	    /* IE 8 */
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#36414F)" no-repeat;
+
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff; /*  */
+	}
+
+	.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+	.navbar-default .navbar-nav > li > a {
+  	color: #fff;
+  	text-shadow: 0 1px 0 rga(255,255, 255, .25);
+}
+
+	.pull-down {
+	    background-color: #364F4C;
+	    /* For WebKit (Safari, Chrome, etc) */
+	    background: #364F4C -webkit-gradient(linear, left top, left bottom, from(#36414F), to(#364F4C)) no-repeat;
+	    /* Mozilla,Firefox/Gecko */
+	    background: #364F4C -moz-linear-gradient(top, #36414F, #364F4C) no-repeat;
+	    /* IE 5.5 - 7 */
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#364F4C) no-repeat;
+	    /* IE 8 */
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#36414F)" no-repeat;
+}
+	.space {
+		padding: 10px 0;
+	}
+
+
+
+
+
+
+}
+
+}
+
+@media (max-width: 1200px) {
+	.img-responsive {
+		max-width: 77%;
+		min-width: 120px;
+	}
+}
+
