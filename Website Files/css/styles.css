@@ -110,7 +110,7 @@ font-weight: 500;
 	font-family: 'Croissant One', cursive;
 }
 .central {
-	font-size: 60px;
+	font-size: 65px;
 }
 
 .last-name, .job {
@@ -163,12 +163,19 @@ footer {
 			list-style-type: none;
 	}
 
-.linkedin {
+.github {
 	text-decoration: none;
+	margin-right: 10px;
 }
 .twitter {
 	text-decoration: none;
-	padding-right: 10px;
+	margin-right: 10px;
+}
+.linkedin {
+	text-decoration: none;
+}
+.icons a {
+	display: inline-block;
 }
 
 /*Media Queries*/
