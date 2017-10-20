@@ -137,6 +137,30 @@ font-weight: 500;
 	color: #364F4C;
 }
 
+/*Contact*/
+.container-fluid {
+	padding: 0;
+}
+.chat-greet {
+	font-size: 4em;
+	margin-bottom: 0;
+	padding-top: 100px;
+}
+.bg {
+	background-color: #fafafa;
+}
+.bg-bottom {
+	background-color: #365f4c;;
+}
+.chat {
+	height: 290px;
+}
+.box {
+	height: 290px;
+}
+
+
+
 
 /* Footer */
 
@@ -144,6 +168,12 @@ footer {
 	border-top: 2px solid #6fc5d6; /* Light Teal*/
 	margin-top: 50px;
 	padding-bottom: 10px;
+}
+.footer-header {
+	background-image: url('../img/footer-bg.jpg');
+	background-repeat: none;
+	background-position: center center;
+	background-size: cover;
 }
 .footer-nav {
 	display: inline;
