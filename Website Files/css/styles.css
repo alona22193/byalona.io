@@ -148,21 +148,29 @@ footer {
 .footer-nav {
 	display: inline;
 }
-
+.envelope-edit {
+	color: #365f4c; /* Dark Blue Grey*/
+}
 .icon-edit {
 	color: #365f4c; /* Dark Blue Grey*/
 	padding-top: 20px;
 }
 
 .foot > li > a {
-	color: #365f4c;
+	color: #365f4c; /* Dark Blue Grey*/
 	font-size: 1.5em;
 	text-decoration: none;
 }
 	.foot > li {
 			list-style-type: none;
 	}
-
+	.foot > li > a:hover {
+	color: #808080; /* Dark Grey */
+	}
+.envelope {
+	text-decoration: none;
+	margin-right: 10px;
+}
 .github {
 	text-decoration: none;
 	margin-right: 10px;
@@ -176,6 +184,12 @@ footer {
 }
 .icons a {
 	display: inline-block;
+}
+.fa-github:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-envelope:hover {
+	color: #808080; /* Dark Grey */
+}
+.fa-envelope {
+
 }
 
 /*Media Queries*/
