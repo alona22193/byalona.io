@@ -1,4 +1,5 @@
 /* Colors
+#4fd2df; Bright Teal
 #365f4c; Dark Blue Grey
 #808080; Dark Grey
 #6fc5d6; Light Teal
@@ -7,7 +8,9 @@
 */
 
 
-
+body {
+	overflow-x: hidden;
+}
 
 .bgimage-home {
 	background-attachment: fixed;
@@ -18,6 +21,7 @@
 }
 
 /* Nav Bar */
+
 
 .navbar-default {
 	background-color: transparent;
@@ -150,7 +154,7 @@ font-weight: 500;
 	background-color: #fafafa;
 }
 .bg-bottom {
-	background-color: #365f4c;;
+	background-color: webkit-gradient(linear,left top,left bottom,from(#36414F),to(#364F4C));
 }
 .chat {
 	height: 290px;
@@ -158,7 +162,9 @@ font-weight: 500;
 .box {
 	height: 290px;
 }
-
+form {
+	padding: 55px 0;
+}
 
 
 
@@ -167,8 +173,13 @@ font-weight: 500;
 footer {
 	border-top: 2px solid #6fc5d6; /* Light Teal*/
 	margin-top: 50px;
+	max-height: 68px;
 	padding-bottom: 10px;
 }
+.contact-footer {
+	margin: 0;
+}
+
 .footer-header {
 	background-image: url('../img/footer-bg.jpg');
 	background-repeat: none;
@@ -181,6 +192,9 @@ footer {
 .envelope-edit {
 	color: #365f4c; /* Dark Blue Grey*/
 }
+	.envelope-edit-contact {
+		color: #4fd2df;
+	}
 .icon-edit {
 	color: #365f4c; /* Dark Blue Grey*/
 	padding-top: 20px;
