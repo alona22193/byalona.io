@@ -7,13 +7,21 @@
 #681f6c; Purple 
 */
 
+/* Color Scheme
+#0d505a; Dark Teal
+#106470; Medium Teal
+#1aa03b; Bright Teal
+#9d168c; Dark Purple
+#b31aa0; Light Purple
+*/
 
 body {
+	margin: 0;
 	overflow-x: hidden;
+	padding: 0;
 }
 
 .bgimage-home {
-	background-attachment: fixed;
 	background-image: url('../img/tablet.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -138,8 +146,23 @@ font-weight: 500;
 	padding: 40px 0;
 }
 .port-name {
-	color: #364F4C;
+	color: #9d168c; /* Dark Purple */
 }
+
+.border {
+	 border: 3px solid #808080;
+}
+
+/*About */
+
+.about-body {
+	margin-top: 100px;
+}
+.portrait {
+	width: 60%;
+}
+
+
 
 /*Contact*/
 .container-fluid {
@@ -148,16 +171,20 @@ font-weight: 500;
 .chat-greet {
 	font-size: 4em;
 	margin-bottom: 0;
-	padding-top: 100px;
+	padding-top: 130px;
 }
+	.chat-greet p {
+		color: #0d505a;
+		margin: 0;
+	}
 .bg {
-	background-color: #fafafa;
+	background-color: #d1cfd1; /* Medium Grey*/
 }
 .bg-bottom {
-	background-color: webkit-gradient(linear,left top,left bottom,from(#36414F),to(#364F4C));
+	background: linear-gradient(to bottom, #0d505a 0%, #106470 100%);
 }
 .chat {
-	height: 290px;
+	height: 310px;
 }
 .box {
 	height: 290px;
@@ -166,12 +193,34 @@ form {
 	padding: 55px 0;
 }
 
+	/* Button Style */
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.btn-info.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+
+
 
 
 /* Footer */
 
 footer {
-	border-top: 2px solid #6fc5d6; /* Light Teal*/
+	border-top: 2px solid #1aa0b3; /* Light Teal*/
 	margin-top: 50px;
 	max-height: 68px;
 	padding-bottom: 10px;
@@ -190,18 +239,18 @@ footer {
 	display: inline;
 }
 .envelope-edit {
-	color: #365f4c; /* Dark Blue Grey*/
+	color: #9d168c; /* Dark Purple */
 }
 	.envelope-edit-contact {
-		color: #4fd2df;
+		color: #b31aa0; /*5c4677*/
 	}
 .icon-edit {
-	color: #365f4c; /* Dark Blue Grey*/
+	color: #9d168c; /* Dark Purple */
 	padding-top: 20px;
 }
 
 .foot > li > a {
-	color: #365f4c; /* Dark Blue Grey*/
+	color: #0d505a; /* Dark Teal */
 	font-size: 1.5em;
 	text-decoration: none;
 }
@@ -240,15 +289,15 @@ footer {
 
 @media (max-width: 767px) {
 	.navbar-default .scroll {
-	 background-color: #364F4C;
+	 background-color: #0d505a;
 	    /* For WebKit (Safari, Chrome, etc) */
-	    background: #364F4C -webkit-gradient(linear, left top, left bottom, from(#36414F), to(#364F4C)) no-repeat;
+	    background: #0d505a -webkit-gradient(linear, left top, left bottom, from(#0d505a), to(#106470)) no-repeat;
 	    /* Mozilla,Firefox/Gecko */
-	    background: #364F4C -moz-linear-gradient(top, #36414F, #364F4C) no-repeat;
+	    background: #0d505a -moz-linear-gradient(top, #0d505a, #106470) no-repeat;
 	    /* IE 5.5 - 7 */
-	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#364F4C) no-repeat;
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0d505a, endColorstr=#106470) no-repeat;
 	    /* IE 8 */
-	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#36414F)" no-repeat;
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0d505a, endColorstr=#106470)" no-repeat;
 
 	}
 
@@ -267,17 +316,17 @@ footer {
 }
 
 	.pull-down {
-	    background-color: #364F4C;
+	    background-color: #0d505a;
 	    /* For WebKit (Safari, Chrome, etc) */
-	    background: #364F4C -webkit-gradient(linear, left top, left bottom, from(#36414F), to(#364F4C)) no-repeat;
+	    background: #0d505a -webkit-gradient(linear, left top, left bottom, from(#0d505a), to(#106470)) no-repeat;
 	    /* Mozilla,Firefox/Gecko */
-	    background: #364F4C -moz-linear-gradient(top, #36414F, #364F4C) no-repeat;
+	    background: #0d505a -moz-linear-gradient(top, #0d505a, #106470) no-repeat;
 	    /* IE 5.5 - 7 */
-	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#364F4C) no-repeat;
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0d505a, endColorstr=#106470) no-repeat;
 	    /* IE 8 */
-	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#36414F, endColorstr=#36414F)" no-repeat;
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0d505a, endColorstr=#106470)" no-repeat;
 }
-	.space {
+	.space {		
 		padding: 10px 0;
 	}
 

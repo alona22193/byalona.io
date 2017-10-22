@@ -2,53 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Alona | Web Designer</title>
         <meta name="description" content="Alona Loehlein Online Portfolio. About">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="web designer, online portfolio, artist, ui design, visual designer">
         <meta name="author" content="Alona Loehlein">
-        
 
-<!-- Stylesheets -->
+
+
+<!-- Stylesheets -->        
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles.css">
-
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/font-awesome-animation.min.css">
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
 
 </head>
 <body>
 
 
-<header class="bgimage-about">
-  <div class="container">
-  	<div class="row">
-  		<div class="col-xs-2 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-2 col-lg-2">
-		    <p class="logo">
-		    	<a class="logo-name" href="http://alona.io">alona</a>
-		    </p>
-		  </div>
-  		<div class="col-xs-10 col-sm-5 push-left col-md-4 push-left col-lg-4 pull-right">
-  		    <ul>
-  		        <li><a class="menu-link" href="#home">Home</a></li>
-  		        <li><a class="menu-link" href="#portfolio">Portfolio</a></li>
-  		        <li><a class="menu-link" href="#about">About</a></li>
-  		        <li><a class="menu-link" href="#contact">Contact</a></li>
-  		    </ul>
-  		</div>
-	  </div>
-  </div>
+<header>
+ <nav class="navCustom navbar navbar-default navbar-fixed-top scroll" role="navigation">
+    <div class="container pull-down">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand name" href="index.html">alona</a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#port-jump">Work</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="contact/index.html">Contact</a></li>
+        </ul>        
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
 </header>  
 	
 <div class="container about-body">
 	<div class="row">
-		<div class="col-xs-offset-2 col-sm-4 col-sm-offset-1 col-md-offset-1 col-md-3 col-lg-4 col-lg-offset-1">
-			<div class="about-photo">
-			</div> 
-		</div>
+    <div>
+  		<div class="col-xs-12 col-sm-6">
+  			<img class="center-block portrait" src="../img/about.jpg" alt="portrait of Alona" />
+  		</div>
+    </div>
 
-		<div class="col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">	
+  
+		<div class="col-xs-12 col-sm-6">	
 			<h2>About Me</h2>		
 			<p>
                Hi! I am a Freelance Web Designer with skills in front-end code. I have training in digital design from the Graduate School in Washington, DC and front-end coding from Skillcrush.
@@ -67,10 +76,45 @@
             <p>
                 I grew up in a military family that moved every two years. Later, I finished my MA in English/Linguistics and joined the Peace Corps in Mongolia. I learned to find my own ways adapt to new experiences and persevere. My life-long interest in creativity and design led me to design and code websites.
             </p>
-		</div>
+		  </div>
 	</div>
 </div>
 
+
+<!--  Footer -->
+<footer>
+  <header class="footer-header">
+    <div class="container ">
+      <div class="row">
+
+        <div class="col-xs-7">
+          <ul class="footer-nav text-left foot h5">
+            <li>
+              <a class="envelope" href="mailto:alona@alona.io" target="_blank"><i class="fa fa-envelope envelope-edit fa-1x" aria-hidden="true"></i></a> 
+              <a href="mailto:alona@alona.io">Need a Website?</a>
+            </li>
+          </ul>        
+        </div><!-- -->
+
+      
+    <div class="icons">
+      <div class="col-xs-5 text-right">
+        <a class="github" href="https://github.com/alona22193/alona.io/" target="_blank">
+          <i class="fa fa-github icon-edit fa-2x" aria-hidden="true"></i>
+        </a>
+        <a class="twitter" href="https://twitter.com/alona_io" target="_blank">
+          <i class="fa fa-twitter icon-edit fa-2x" aria-hidden="true"></i>
+        </a>
+        <a class="linkedin" href="https://www.linkedin.com/in/alona-l-44527172/" target="_blank">
+          <i class="fa fa-linkedin icon-edit fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</header>
+</footer>
 
 		
 
