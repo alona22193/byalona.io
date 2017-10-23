@@ -15,7 +15,10 @@
 #b31aa0; Light Purple
 */
 
-body {
+.contact-bod, .about-bod {
+	background-image: url('../img/tablet-short.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
 	margin: 0;
 	overflow-x: hidden;
 	padding: 0;
@@ -149,45 +152,47 @@ font-weight: 500;
 	color: #9d168c; /* Dark Purple */
 }
 
-.border {
-	 border: 3px solid #808080;
-}
 
 /*About */
 
-.about-body {
-	margin-top: 100px;
+.about-section {
+	background-color: #fff;
+	margin-top: 50px;
 }
 .portrait {
 	width: 60%;
 }
 
+.about-col-edits {
+	padding-top: 80px;
+}
 
-
-/*Contact*/
+/* Contact */
 .container-fluid {
 	padding: 0;
 }
 .chat-greet {
 	font-size: 4em;
 	margin-bottom: 0;
-	padding-top: 130px;
+	margin-top: 55px;
 }
 	.chat-greet p {
-		color: #0d505a;
+		background-color: #fff;
+		color: #0d505a; /* Dark Teal */
+		height: 150px;
 		margin: 0;
+		padding-top: 60px;
 	}
 .bg {
-	background-color: #d1cfd1; /* Medium Grey*/
+	background-color: #d1cfd1; /* Medium Grey */
 }
 .bg-bottom {
 	background: linear-gradient(to bottom, #0d505a 0%, #106470 100%);
 }
-.chat {
-	height: 310px;
-}
-.box {
-	height: 290px;
+
+.email-area {
+	background-color: #fff;
+	padding-bottom: 20px;
 }
 form {
 	padding: 55px 0;
@@ -224,6 +229,10 @@ footer {
 	margin-top: 50px;
 	max-height: 68px;
 	padding-bottom: 10px;
+}
+.about-footer {
+	margin:0;
+	padding: 0;
 }
 .contact-footer {
 	margin: 0;
@@ -330,6 +339,8 @@ footer {
 		padding: 10px 0;
 	}
 
+	/* About Me */
+
 
 
 
@@ -337,12 +348,17 @@ footer {
 
 }
 
-}
+
 
 @media (max-width: 1200px) {
 	.img-responsive {
 		max-width: 77%;
 		min-width: 120px;
 	}
+	.about-col-edits {
+		padding-bottom: 30px;
+	}
+	
+
 }
 
