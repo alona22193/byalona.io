@@ -1,0 +1,167 @@
+/* Colors
+#3a1c13; Bright Chocolate
+#a98761; Light Brown
+#fed0a9; Peach
+#da2565; Hot Pink
+#fff; White
+
+*/
+
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-size: 16px;
+	margin: 0;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.home-page {
+	background-attachment: fixed;
+	background-image: url('../img/chocolate-chip.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	font-family: 'Open Sans', sans-serif;	
+}
+header {
+	background-color: #fff;
+}
+
+
+
+h1,
+h3,
+h4 {
+	color: #da2565; /* Hot Pink */
+
+}
+
+h1 {
+	font-size: 1.88em;	
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: left;
+	width: auto;
+}
+
+
+h4 {
+	font-size: .75em;
+}
+
+p {
+	color: #a98761; /*Tan*/
+
+}
+
+
+/*Header*/
+
+header {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.divine {
+	color: #a98761; /*Tan*/
+	font-family: "Bodoni", serif;
+	font-size: 1.5em;
+	font-style: italic;
+	padding-left: 0;
+	text-transform: lowercase;
+}
+.nav-edits-cookie {
+	padding-right: 0;
+}
+.cookies {
+	font-family: 'Lily Script One', cursive;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2em;
+	color:#da2565; /*Hot Pink*/
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+.navbar-right {
+	margin: 15px 0;
+}
+
+.navbar-right a {
+	color: #3a1c13; /*Bright Chocolate*/
+	font-size: 1.2em;
+}
+
+/*The widths are in a percentage!*/
+
+
+.placeholder {
+	background-color: transparent;
+	height: 400px;
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 600px;
+	min-height: 400px;
+}
+
+.container-fluid {
+	margin: 0 -15px;
+}
+
+.news, footer {
+	background-color: #fff;
+}
+
+
+
+.reviews {
+	color: #a98761; /*Tan*/
+	font-size: 16px;
+}
+
+.address {
+	font-size: 16px;
+}
+
+.specials-title, .reviews-title, .contact-title {
+	color: #da2565;
+	font-size: 1.2em;
+	padding: 40px 0 0 0;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%;
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script;
+	text-transform: lowercase;
+	color: #a98761; /*Tan*/
+	font-size: .88em;
+}
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+.home-page {
+	width: 100%;
+}
+}
+
+@media all and (min-width:940px) {
+    /* Desktop styles here */
+
+}
