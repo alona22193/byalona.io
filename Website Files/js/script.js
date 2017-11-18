@@ -17,3 +17,59 @@ $(document).ready(function(){
 })
 
 
+/* Bootstrap has-error around divs */
+
+function validateText(id) {
+	if($("#"+id).val()==null || $("#"+id).val()=="")
+	{
+		
+		var div = $("#"+id).closest("div");
+		div.addClass("has-error");		
+		return false;
+	}
+	else {
+		var div = $("#"+id).closest("div");
+		div.removeClass("has-error");		
+		return true;
+	}
+	
+}
+
+$(document).ready(
+	function()
+	{
+		$("#submit").click(function()
+		{
+			if(!validateText("inputName"))
+			{
+				return false;		
+			}			
+
+			if(!validateText("inputEmail"))
+			{
+				return false;				
+			}
+
+			if(!validateText("inputComments"))
+			{
+				return false;				
+			}
+
+			$("form#contactform").submit();
+	}
+
+	)})
+
+
+/*Insert error text
+
+function myFunction() {
+    var text = document.getElementByClassName("inputName");
+
+
+    if (text.checkValidity() === false) {
+         document.getElementByClassName("invalid").innerHTML = "Invalid entry";
+    } else {
+         document.getElementById("invalid").innerHTML = "Input OK";
+    }
+    */

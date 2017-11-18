@@ -10,14 +10,26 @@
         <meta name="author" content="Alona Loehlein">
 
 
-
-<!-- Stylesheets -->        
+<!-- CSS -->        
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/font-awesome-animation.min.css">
-  <!-- Scripts -->
+
+<!-- BootstrapValidator CSS -->
+  <link rel="stylesheet" href="../css/bootstrapValidator.min.css">
+  
+
+<!-- JQuery and Bootstrap JS -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/bootstrapValidator.min.js"></script>
+
+
+<!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
+
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Croissant+One|Raleway" rel="stylesheet">
 
@@ -35,14 +47,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand name" href="alona.io">alona</a>
+        <a class="navbar-brand name" href="../index.html">alona</a>
       </div><!-- navbar-header -->
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="alona.io">Home</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#work">Work</a></li>
+          <li><a href="../about/index.html">About</a></li>
+          <li><a href="index.html">Contact</a></li>
         </ul>        
       </div><!-- collapse navbar-collapse -->
     </div><!-- container -->
@@ -70,23 +82,32 @@
 
 <div class="container-fluid bg-bottom">
   <div class="container col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4">
-    <form>
+    <form id="contactform" novalidate>
       <div class="form-group">
         <label class="sr-only" for="inputName">Name</label>
-        <input type="text" class="form-control" id="inputName" placeholder="Name">
+        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name" required>
+        <div>
+          <p class="invalid"></p>
+        </div>
       </div>
       
       <div class="form-group">
         <label class="sr-only" for="inputEmail">Email</label>
-        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required>
+        <div>
+          <p class="invalid"></p>
+        </div>
       </div>
 
       <div class="form-group">
         <label class="sr-only" for="inputComments">Comments</label>
-        <textarea type="text" class="form-control" id="inputComments"></textarea>
+        <textarea type="text" class="form-control" id="inputComments" name="inputComments" placeholder="Message" required></textarea>
+        <div>
+          <p class="invalid"></p>
+        </div>
       </div>
 
-      <button type="button" class="btn btn-info btn-lg outline">Submit</button>
+      <button onClick="myFunction()" type="button" class="btn btn-info btn-lg outline" id="submit">Submit</button>
       
     </form>
   </div>
@@ -138,4 +159,5 @@
 <script src="../js/script.js"></script>
 <script src="../js/jquery.js"></script>
 </body>
+
 </html>

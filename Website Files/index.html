@@ -11,14 +11,25 @@
 
 
 
-<!-- Stylesheets -->        
+<!-- CSS -->        
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/font-awesome-animation.min.css">
 
+<!-- BootstrapValidator CSS -->
+  <link rel="stylesheet" href="css/bootstrapValidator.min.css">
+  <link rel="stylesheet" href="css/bootstrapValidator.css">
+
+<!-- JQuery and Bootstrap JS -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
 <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
+
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Croissant+One|Raleway" rel="stylesheet">
 
@@ -41,8 +52,8 @@
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#port-jump">Work</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="about/index.html">About</a></li>
           <li><a href="contact/index.html">Contact</a></li>
         </ul>        
       </div><!-- collapse navbar-collapse -->
@@ -62,7 +73,7 @@
     </div>
     <div class="inner-2">
         <div class="group-2">
-          <a href="#port-jump"> 
+          <a href="#work"> 
             <i class="fa fa-angle-double-down fa-4x faa-bounce animated" aria-hidden="true"></i>
           </a> 
         </div>
@@ -71,39 +82,71 @@
 </div>
 
   <!--Portfolio-->
-  <div id="port-jump" class="text-center port-header">
+  <div id="work" class="text-center port-header">
     <h2><span class="name port-name">Portfolio</span></h2>
   </div>
 
   <div class="content container">
       <div class="row">
 
-        <div>
-          <div class="col-xs-12 col-sm-4">
-            <a href="#">
-            <img class="img-responsive img-circle center-block space" src="img/music-p.jpg" alt="thumbnail of music website" target="_blank">
-            </a>
-          </div>
-        </div>
+       
+          
+            <div class="col-xs-12 col-sm-4">
+              <div class="space effects port-border"><!-- space between div rows-->                  
+                  <img class="img-responsive img-circle center-block" src="img/music-p.jpg" alt="thumbnail of music website" target="_blank">
+                  
+                  <div class="overlay">
+                    <div class="text">Fluid Music Site</div>
+                  </div>
+              </div>
+            </div>
 
-        <div>
-          <div class="col-xs-12 col-sm-4">
-              <a href="#">
-              <img class="img-responsive img-circle center-block space" src="img/bakery-p.jpg" alt="Thumbnail of bakery website" target="_blank">
-              </a>
+            
+                <div class="col-xs-12 col-sm-4">
+                  <div class="space effects"><!-- space between div rows-->                    
+                    <img class="img-responsive img-circle center-block" src="img/bakery-p.jpg" alt="Thumbnail of bakery website" target="_blank">                    
+                    <div class="overlay">
+                      <div class="text">Fluid Bakery Site</div>
+                    </div>
+                  </div>
+                </div>   
+              
+                <div class="col-xs-12 col-sm-4">
+                  <a href="https://restonvamochamoms.wixsite.com/restonmochamoms">
+                    <div class="space effects"><!-- space between div rows-->
+                      
+                      <img class="img-responsive img-circle center-block" src="img/mocha.png" alt="Thumbnail of mocha moms group website" target="_blank">
+                      
+                      <div class="overlay">
+                        <div class="text">UX Design</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>      
+            
           </div>      
-        </div>
-        <div>
-          <div class="col-xs-12 col-sm-4">
-              <a href="https://restonvamochamoms.wixsite.com/restonmochamoms">
-              <img class="img-responsive img-circle center-block space" src="img/mocha.png" alt="Thumbnail of mocha moms group website" target="_blank">
-              </a>
-          </div>      
-        </div>
+
+  </div><!-- Container -->
+
+
+  <div class="content container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="space effects"><!-- space between div rows-->
+              <div class="overlay">
+              <div class="text">HTML Newsletter</div>
+            </div>
+            <img class="img-responsive img-circle center-block " src="img/html-email-cover.jpg" alt="Thumbnail of mocha moms group website" target="_blank">          
+            
+          </div>  
+        </div>  
 
       </div><!-- Row -->
+  </div>
+     
 
-  </div><!-- content container -->
+</div><!-- content container -->
 
 <!--  Footer -->
 <footer>
@@ -143,9 +186,6 @@
 
 </body>
 
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.js"></script>
+
 </body>
 </html>
