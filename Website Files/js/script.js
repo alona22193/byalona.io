@@ -16,7 +16,7 @@ $(document).ready(function(){
   })
 })
 
-
+ 
 /* Bootstrap has-error around divs */
 
 function validateText(id) {
@@ -61,15 +61,3 @@ $(document).ready(
 	)})
 
 
-/*Insert error text
-
-function myFunction() {
-    var text = document.getElementByClassName("inputName");
-
-
-    if (text.checkValidity() === false) {
-         document.getElementByClassName("invalid").innerHTML = "Invalid entry";
-    } else {
-         document.getElementById("invalid").innerHTML = "Input OK";
-    }
-    */

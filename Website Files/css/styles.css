@@ -15,12 +15,21 @@
 #b31aa0; Light Purple
 */
 
-.contact-bod, .about-bod {
+.about-bod {
 	background-image: url('../img/tablet-short.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
 	margin: 0;
 	overflow-x: hidden;
+	padding: 0;
+}
+.contact-bod {
+	background-image: url('../img/tablet-short.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
 	padding: 0;
 }
 
@@ -157,10 +166,20 @@ font-weight: 500;
 .port-header {
 	padding: 40px 0;
 }
+
 .port-name {
 	color: #9d168c; /* Dark Purple */
 }
-.img-responsive {
+
+#port-name a {
+	color: #9d168c; /* Dark Purple */
+	text-decoration: none;
+}
+	#port-name a:hover {
+		color: #808080; /* Dark Grey */
+	}
+
+.max {
 		max-width: 200px;
 		min-width: 120px;
 }
@@ -232,14 +251,16 @@ font-weight: 500;
 .about-col-edits {
 	padding-top: 80px;
 }
-.aboutme {
+.aboutme, #port-name {
 	color: #9d168c; /* Dark Purple*/
 }
-.about-skills {
+.about-skills, .port-skills {
 	color: #9d168c; /* Dark Purple */
 	font-size: 1.3em;
 	font-weight: 700;
 }
+
+
 
 
 /* Contact */
@@ -262,9 +283,10 @@ font-weight: 500;
 .bg {
 	background-color: #d1cfd1; /* Medium Grey */
 }
-/*.bg-bottom {
-	background: linear-gradient(to bottom, #106470 0%, #1aa03b 100%);
-}*/
+.bg-bottom {
+	height: 300px;
+	/*background: linear-gradient(to bottom, #106470 0%, #1aa03b 100%);*/
+}
 
 .email-area {
 	background-color: #fff;
@@ -274,9 +296,7 @@ form {
 	padding: 55px 0;
 }
 
-form:valid {
-	
-}
+
 
 	/* Button Style */
 .btn.outline {
@@ -299,7 +319,10 @@ form:valid {
 	box-shadow: none;
 }
 
+/* Portfolio Page Description*/
+.port-skills {
 
+}
 
 
 /* Footer */
