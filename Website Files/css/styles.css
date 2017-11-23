@@ -84,6 +84,7 @@ font-weight: 500;
 
 .navbar-brand>img {
     display: inline;
+    margin-left: 0;
     padding-right: 5px;
 }
 
@@ -151,7 +152,7 @@ font-weight: 500;
 	font-size: 65px;
 }
 
-.last-name, .job {
+.tag-line, .job {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 }
