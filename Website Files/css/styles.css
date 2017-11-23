@@ -29,7 +29,6 @@
 	background-position: top;
 	margin: 0;
 	overflow-x: hidden;
-	overflow-y: hidden;
 	padding: 0;
 }
 
@@ -78,8 +77,15 @@ font-weight: 500;
 		color: #808080; /* Dark Grey */
 	}
 
+.navbar-default .leaf {
+	padding-top: 10px;
+	
+}
 
-
+.navbar-brand>img {
+    display: inline;
+    padding-right: 5px;
+}
 
 /* Dropdown */
 
@@ -284,7 +290,7 @@ font-weight: 500;
 	background-color: #d1cfd1; /* Medium Grey */
 }
 .bg-bottom {
-	height: 300px;
+	min-height: 315px;
 	/*background: linear-gradient(to bottom, #106470 0%, #1aa03b 100%);*/
 }
 
