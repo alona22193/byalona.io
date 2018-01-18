@@ -16,48 +16,11 @@ $(document).ready(function(){
   })
 })
 
- 
-/* Bootstrap has-error around divs */
 
-function validateText(id) {
-	if($("#"+id).val()==null || $("#"+id).val()=="")
-	{
-		
-		var div = $("#"+id).closest("div");
-		div.addClass("has-error");		
-		return false;
-	}
-	else {
-		var div = $("#"+id).closest("div");
-		div.removeClass("has-error");		
-		return true;
-	}
-	
-}
+$(document).ready(function()
+{
+  $(".effects-1").css("border-radius", "50%");
+});
 
-$(document).ready(
-	function()
-	{
-		$("#submit").click(function()
-		{
-			if(!validateText("inputName"))
-			{
-				return false;		
-			}			
-
-			if(!validateText("inputEmail"))
-			{
-				return false;				
-			}
-
-			if(!validateText("inputComments"))
-			{
-				return false;				
-			}
-
-			$("form#contactform").submit();
-	}
-
-	)})
 
 
