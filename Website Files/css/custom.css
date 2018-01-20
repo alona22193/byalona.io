@@ -1,0 +1,23 @@
+.form_font {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.2em;
+}
+
+
+.success_greeting {
+	font-family: 'Croissant One', cursive;
+	font-size: 4em;
+	font-weight: 700;
+
+}
+	.success_greeting_second {
+		font-size: 40px.;
+	}
+
+.success_container_padding, .error_container_padding {
+	padding-top: 40px;
+}
+.error_greeting {
+	font-size: 42px;
+	font-weight: 500;
+}

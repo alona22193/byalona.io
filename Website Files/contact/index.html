@@ -21,6 +21,7 @@
 <!-- CSS -->        
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/custom.css">
   <link rel="stylesheet" href="../css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/font-awesome-animation.min.css">
 
@@ -55,7 +56,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-           <a class="navbar-brand leaf" href="/"><img src="../img/oak-psd.png" width="35px" alt="image of a purple oak leaf icon." /><span class="name">alona</span></a>
+           <a class="navbar-brand leaf" href="/"><img src="../img/oak-psd.png" width="35px" alt="image of a purple oak leaf icon." /><span class="logo_name">alona</span></a>
       </div><!-- navbar-header -->
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -74,19 +75,80 @@
 <div class="container-fluid contact-page-height">
     <div class="row">  
       <div class="chat">  
-        <div class="chat-greet col-xs-12 name text-center align-middle">
-          <p>Let's Chat.</p>
-          <a class="envelope contact-env" href="mailto:alona@alona.io" target="_blank"><i class="fa fa-envelope envelope-edit-contact fa-1x" aria-hidden="true"></i></a> 
-          <a class="address" href="mailto:alona@alona.io">alona@alona.io</a>
+        <div class="chat-greet col-xs-12 text-center align-middle">
+          <p class="logo_name">Let's Chat.</p>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-8 col-lg-offset-2">
+
+              <form id="contact-form" method="post" action="contact.php" role="form">
+
+                  <div class="messages"></div>
+
+                  <div class="controls">
+
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group form_font">
+                                  <label for="form_name">First Name *</label>
+                                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group form_font">
+                                  <label for="form_lastname">Last Name *</label>
+                                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group form_font">
+                                  <label for="form_email">Email *</label>
+                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group form_font">
+                                  <label for="form_phone">Phone</label>
+                                  <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="form-group form_font">
+                                  <label for="form_message">Message *</label>
+                                  <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 form_font">
+                              <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12 form_font">
+                              <p class="text-muted form_font"><strong>*</strong> These fields are required.</p>
+                          </div>
+                      </div>
+                  </div>
+
+              </form>
         </div>        
       </div>
     </div>
-
-    <!-- Contact Form -->
-
-    <div class="form">
-
-    </div>
+</div>
+</div>
+</div>
+   
 
 </div> 
 

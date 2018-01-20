@@ -155,7 +155,7 @@ font-weight: 500;
 	text-align: center;
 }
 
-.name {
+.logo_name {
 	font-family: 'Croissant One', cursive;
 }
 .central {
@@ -347,13 +347,13 @@ font-weight: 500;
 	height: 100vh;
 }
 
-.chat-greet {
+.chat-greet .logo_name{
 	background-color: #fff;
 	font-size: 4em;
 	margin-bottom: 0;
 	margin-top: 55px;
 }
-	.chat-greet p {
+	.chat-greet .logo_name {
 		background-color: #fff;
 		color: #0d505a; /* Dark Teal */
 		font-family: 'Croissant One', cursive;
@@ -361,21 +361,24 @@ font-weight: 500;
 		margin-bottom: -20px;
 		padding-top: 60px;
 	}
-	
-	.chat-greet a:link {
-		color: #0d505a;
-		font-size: 20px;
-		margin-left: -15px;
-		text-decoration: none;
-	}
-	.chat-greet a:visited, .chat-greet a:hover, .chat-greet a:active {
-		color: #808080;		
-		text-decoration: none;
+
+.success_greeting {
+	color: #0d505a; /*Dark Teal*/
+	font-family: 'Croissant One', cursive;
+	font-size: 4em;
+	font-weight: 700;
+
+}
+	.success_greeting_second {
+		font-size: 40px.;
 	}
 
-.contact-env {
-	font-size: 25px;
-	margin-left: -10px;
+.success_container_padding, .error_container_padding {
+	padding-top: 40px;
+}
+.error_greeting {
+	font-size: 42px;
+	font-weight: 500;
 }
 
 
