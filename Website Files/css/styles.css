@@ -343,9 +343,7 @@ font-weight: 500;
 	padding: 0;
 }
 
-.contact-page-height {
-	height: 100vh;
-}
+
 
 .chat-greet .logo_name{
 	background-color: #fff;
@@ -357,7 +355,6 @@ font-weight: 500;
 		background-color: #fff;
 		color: #0d505a; /* Dark Teal */
 		font-family: 'Croissant One', cursive;
-		height: 150px;
 		margin-bottom: -20px;
 		padding-top: 60px;
 	}
@@ -385,9 +382,9 @@ font-weight: 500;
 .bg {
 	background-color: #d1cfd1; /* Medium Grey */
 }
-/*.bg-bottom {
-	min-height: 315px;
-	/*background: linear-gradient(to bottom, #106470 0%, #1aa03b 100%);*/
+
+.contact_page_height {
+	
 }
 
 .email-area {
@@ -503,12 +500,7 @@ footer {
 	margin: 0;
 }
 
-.footer-header {
-	background-image: url('../img/footer-bg.jpg');
-	background-repeat: none;
-	background-position: center center;
-	background-size: cover;
-}
+
 .footer-nav {
 	background-color: #fff;
 	display: inline;
@@ -691,18 +683,27 @@ footer {
 @media (max-width: 425px) {
 
 .about-header {
-	color: #808080;
+	background: rgba(255,255,255,0.7);
+	border-radius: 5%;
+	color: #9d168c; /* dark purple */ 
     font-size: 3em;
     position: absolute;
-    left: 5%;
-    top: 58%;
+    left: 56%;
+    top: 70%;
 }
 
 .about-title {
-	color: #9d168c; /* Dark Purple*/
+	background: rgba(255,255,255,0.6);
+	color: #000;
 	font-size: 1.5em;
 	position: absolute;
-	left: 5%;
-	top: 70%;
+	left: 50%;
+	top: 82%;
 }
+
+.about_transparency {
+	background: rgba(255,255,255,.8);
+	border-radius: 5%;
+}
+
 }
