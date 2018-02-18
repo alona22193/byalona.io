@@ -264,7 +264,9 @@ font-weight: 500;
   	width: 200px;
 }
 
-	
+.alona_image_space, .alona_description_space {
+	padding: 20px 0px;
+}	
 
 
 
