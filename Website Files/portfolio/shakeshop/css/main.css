@@ -299,19 +299,79 @@ textarea {
 
       .masthead_mobile {
         display: initial;
+        width: 750px;
       }
 
       header {
-        position: absolute; 
-        left: 0px;
-        top: 10px; 
-        z-index: 0;
+        display: none;
       }
 
-      header nav a {
-        font-size: 1em;
-      }    
+    .mobile-container {
+      float: right;
+      left: 0px;
+      top: 0px; 
+      z-index: 99;
+      max-width: 750px;
+      height: 100%;
+      background-color: #fff;
+      color: white;
+      border-radius: 10px;
+    }
 
+    .topnav {
+      overflow: hidden;
+      background-color: transparent;
+      position: relative;      
+    }
+
+    .topnav #nav {
+      display: none;
+    }
+
+    .topnav a {
+      color: #3349ff;      
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+      text-align: center;
+    }
+
+    .topnav a.icon {
+      background: #fff;
+      border: solid 3px #3349ff;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    #nav a:hover {
+      background-color: #ddd;
+      color: #3349ff;
+    }
+
+    .active {
+      background-color: transparent;
+      color: #3349ff;
+      height: 55px;
+    }
+
+
+        /*header {
+          position: absolute; 
+          left: 0px;
+          top: 10px; 
+          z-index: 0;
+        }*/
+
+        /*header nav a {
+          font-size: 1em;
+        }*/
+
+      .masthead {
+        position: relative;
+      }
       .logo {
         width: 40%;
         left: 50%;
