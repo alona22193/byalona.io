@@ -152,6 +152,7 @@ textarea {
    	color: #fff;
    }
 
+   
 
 /* 2nd Half of Page*/
 
@@ -281,9 +282,12 @@ textarea {
    }
 
 
+   @media screen and (min-width: 750px) {
 
-
-
+    .topnav {
+      display: none;
+    }
+}
 
 
    @media screen and (max-width: 750px) {
@@ -319,6 +323,7 @@ textarea {
     }
 
     .topnav {
+      
       overflow: hidden;
       background-color: transparent;
       position: relative;      
