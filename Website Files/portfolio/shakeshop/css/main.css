@@ -204,7 +204,7 @@ textarea {
       padding-bottom: 30px;
   }
 
-    .shake_one span, .shake_two span, .shake_three span, .shake_four span {
+    .menu_item_one span, .menu_item_two span, .menu_item_three span, .menu_item_four span {
       color: #3349ff; /*blue color*/
       font-family: 'Lato', sans-serif;
       font-size: 1.5em;
@@ -282,7 +282,7 @@ textarea {
    }
 
 
-   @media screen and (min-width: 750px) {
+   @media screen and (min-width: 550px) {
 
     .topnav {
       display: none;
@@ -290,7 +290,7 @@ textarea {
 }
 
 
-   @media screen and (max-width: 750px) {
+   @media screen and (max-width: 550px) {
 
       .container {
         display: flex;
@@ -303,7 +303,7 @@ textarea {
 
       .masthead_mobile {
         display: initial;
-        width: 750px;
+        width: 550px;
       }
 
       header {
@@ -315,7 +315,7 @@ textarea {
       left: 0px;
       top: 0px; 
       z-index: 99;
-      max-width: 750px;
+      max-width: 550px;
       height: 100%;
       background-color: #fff;
       color: white;
