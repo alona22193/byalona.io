@@ -4,7 +4,7 @@
 #808080; Dark Grey
 #6fc5d6; Light Teal
 #fafafa; Off White
-#681f6c; Purple 
+#681f6c; Purple
 */
 
 /* Color Scheme
@@ -83,14 +83,14 @@ font-size: 2.5em;
 .navbar-default .navbar-nav {
 font-size: 1.3em;
 font-weight: 500;
-}	
+}
 	.navbar-default .navbar-nav > li > a:hover {
 		color: #808080; /* Dark Grey */
 	}
 
 .navbar-default .leaf {
 	padding-top: 10px;
-	
+
 }
 
 .navbar-brand>img {
@@ -203,7 +203,7 @@ font-weight: 500;
 	}
 .container-work {
 	padding-left: 0px;
-	text-align: justify;	
+	text-align: justify;
 }
 
 .effects:hover .overlay {
@@ -268,7 +268,7 @@ font-weight: 500;
 
 .alona_image_space, .alona_description_space {
 	padding: 30px 0px;
-}	
+}
 
 
 
@@ -334,7 +334,7 @@ font-weight: 500;
 }
 
 .about_inline_list, .about_skills_list {
-	display: inline-block;	
+	display: inline-block;
 }
 
 .about_inline_list {
@@ -388,7 +388,7 @@ font-weight: 500;
 }
 
 .contact_page_height {
-	
+
 }
 
 .email-area {
@@ -426,9 +426,10 @@ form {
 
 	/* Mocha */
 
-.alona_line_height, .mocha_line_height, .newsletter_line_height {
-	line-height: 2.1em;
+.alona_line_height, .mocha_line_height, .newsletter_line_height, .curlytales_line_height {
+		line-height: 1.5em;
     font-size: 1.3em;
+		font-weight: lighter;
 }
 
 button.button_mocha {
@@ -608,7 +609,7 @@ footer {
 	max-width:200px;
 	padding-left: 0px;
 	width: 200px;
-}	
+}
 
 	/* About Me */
 
@@ -630,7 +631,7 @@ footer {
 
 
 @media (max-width: 1200px) {
-	
+
 .portrait {
 	max-height: 400px;
 	min-height: 400px;
@@ -689,7 +690,7 @@ footer {
 .about-header {
 	background: rgba(255,255,255,0.7);
 	border-radius: 5%;
-	color: #9d168c; /* dark purple */ 
+	color: #9d168c; /* dark purple */
     font-size: 3em;
     position: absolute;
     left: 56%;

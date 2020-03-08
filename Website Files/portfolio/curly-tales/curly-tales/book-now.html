@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="author" content="Alona Loehlein">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="copyright" content="Curly Tales" />
+  <meta name="description" content="Curly Tales is a hair salon specializing in naturally curly hair styling needs." />
+  <meta name="keywords" content="curly, hair, curly hair, natural hair salon, curly hair salon, haircut, appointment, book, online, openings, book online near me" />
+  <meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Now</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="sass/style.css" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+<!--Header with navigation-->
+<header>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a class="logo--link" href="http://www.alona.io/portfolio/curly-tales/curly-tales/index.html">
+        <img src="images/logo-sm.png" alt="image of a string of coily curly hair"/>
+        <span class="logo--styles">Curly Tales</span>
+      </a>
+      <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button onclick="location.href = 'http://www.alona.io/portfolio/curly-tales/curly-tales/about.html';" class="dropbtn">About
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/stylists.html">Stylists</a>
+          <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/news.html">News</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button onclick="location.href = 'http://www.alona.io/portfolio/curly-tales/curly-tales/services.html';" class="dropbtn">Services
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/gallery.html">Gallery</a>
+        </div>
+      </div>
+      <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/book-now.html">Book Now</a>
+      <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/products.html">Products</a>
+      <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/contact.html">Contact</a>
+      <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/location.html">Location</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  </nav>
+</header>
+<!-- Breadcrumbs -->
+  <ul class="breadcrumb column--one-layout">
+    <li><a href="http://www.alona.io/portfolio/curly-tales/curly-tales/index.html">Home</a></li>
+    <li>Book Now</li>
+  </ul>
+<h1>Book Now</h1>
+<!-- Main -->
+<main class="flex-container">
+  <section class="column--one book--col-1">
+    <h2>Book an Appointment</h2>
+    <img src="images/book-img.jpg" alt="Photo of salon room with salon equipment" class="img--size-onehund"/>
+  </section>
+  <section class="column--two book--col-2">
+    <h2>Please Fill Out the Form to Make an Appointment</h2>
+    <p>Book an appointment with us and we'll take care of your curly needs. We are open every day of the week. We love to serve you!</p>
+    <form action="mailto:aloehlein@student.umuc.edu" name="myForm" onsubmit="return validateForm()" method="post" enctype="text/plain">
+      <label for="name">Name<span class="asterisk--color">*</span></label><br>
+      <input id="name" type="text" name="name" placeholder="Name" tabindex="0"><br>
+      <label for="email">Email<span class="asterisk--color">*</span></label><br>
+      <input id="email" type="text" name="email" placeholder="Email" tabindex="0"><br>
+      <label for="comment">Enter your comment:</label><br>
+      <textarea id="comment" name="commenttext" placeholder="Enter Comment" tabindex="0"></textarea><br><br>
+      <fieldset>
+        <legend>Choose Your Service(s):<span class="asterisk--color">*</span></legend>
+        <input id="devacut" type="checkbox" name="devacut" value="devacut" tabindex="0" class="form--align">
+        <label for="devacut" class="form--align">Deva Cut and Style</label><br>
+        <input id="trim" type="checkbox" name="trim" value="trim" tabindex="0" class="form--align">
+        <label for="trim" class="form--align">Trim</label><br>
+        <input id="colorsingleprocess" type="checkbox" name="colorsingleprocess" value="colorsingleprocess" tabindex="0" class="form--align">
+        <label for="colorsingleprocess">Color-Single Process</label><br>
+        <input id="colorgloss" type="checkbox" name="colorgloss" value="colorgloss" tabindex="0">
+        <label for="colorgloss">Color-Glossing</label><br>
+        <input id="colorpintura" type="checkbox" name="colorpintura" value="colorpintura" tabindex="0">
+        <label for="colorpintura">Color-Pintura Highlighting</label><br>
+        <input id="styling" type="checkbox" name="styling" value="styling" tabindex="0">
+        <label for="styling">Styling Service</label>
+      </fieldset>
+      <fieldset>
+        <legend>Choose Preferred Time of Day:<span class="asterisk--color">*</span></legend>
+        <input id="morning" type="radio" name="morning" value="morning" tabindex="0">
+        <label for="morning">Morning</label><br>
+        <input id="afternoon" type="radio" name="afternoon" value="afternoon" tabindex="0">
+        <label for="afternoon">Afternoon</label><br>
+        <input id="mid-afternoon" type="radio" name="midafternoon" value="mid-afternoon" tabindex="0">
+        <label for="mid-afternoon">Mid-afternoon</label>
+      </fieldset>
+      <label for="stylist">Choose your stylist</label>
+      <select id="stylist" name="select" tabindex="0">
+        <option value="1">Lisa</option>
+        <option value="2">Paula</option>
+        <option value="3">Bea</option>
+        <option value="4">Elaina</option>
+      </select><br>
+      <input type="submit" name="submit" value="Submit" class="button--styles booknow--button" tabindex="0">
+    </form>
+    <p><span class="asterisk--color">*</span>Required Field</p>
+  </section>
+</main>
+<!--Footer-->
+<footer>
+  <nav class="projectNavbar--footer-styles">
+    <small><i>Copyright &copy; Curly Tales 2020</i></small><br>
+    <p><a href="http://www.alona.io/portfolio/curly-tales/curly-tales/index.html">Home</a> &nbsp; <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/about.html">About</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/stylists.html">Stylists</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/services.html">Services</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/gallery.html">Gallery</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/book-now.html">Book Now</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/products.html">Products</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/news.html">News</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/contact.html">Contact</a> &nbsp; <a href="http://nova.umuc.edu/~ct386a01/project4/location.html">Location</a>
+    </p>
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-tumblr-square"></i>
+    <i class="fab fa-youtube-square"></i><br>
+    <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/privacy-policy.html">Privacy Policy</a><br>
+    <a href="http://www.alona.io/portfolio/curly-tales/curly-tales/terms-and-conditions.html">Terms and Conditions</a>
+    <p id="javascTime"></p>
+    <iframe src="https://duckduckgo.com/search.html?width=150&site=http://nova.umuc.edu/~ct386a01/project4/project4.html&prefill=&bgcolor=fff" style="overflow:hidden;margin:0;padding:0;width:208px;height:40px;"></iframe>
+  </nav>
+</footer>
+<!-- Scripts -->
+<script src="js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/4f8ed81b77.js" crossorigin="anonymous"></script>
+</body>
+</html>

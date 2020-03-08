@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
 }
-.container {  
+.container {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
@@ -9,7 +9,7 @@ body {
   border-radius: 5px;
 }
 body {
-  font: 22px/26px 'Lato', san-serif; 
+  font: 22px/26px 'Lato', san-serif;
   color: #222;
   margin: 0px;
   padding: 0px;
@@ -73,7 +73,7 @@ blockquote:after { content: '"'; }
 @media screen and (max-width: 750px) {
 
 
-   
+
 
 
 
