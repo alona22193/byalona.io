@@ -362,6 +362,9 @@ font-weight: 500;
 		margin-bottom: -20px;
 		padding-top: 60px;
 	}
+	.logo_name {
+		pointer-events: none;
+	}
 
 .success_greeting {
 	color: #0d505a; /*Dark Teal*/
@@ -429,7 +432,7 @@ form {
 .alona_line_height, .mocha_line_height, .newsletter_line_height, .curlytales_line_height {
 		line-height: 1.5em;
     font-size: 1.3em;
-		font-weight: lighter;
+		font-weight: normal;
 }
 
 button.button_mocha {
