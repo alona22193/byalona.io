@@ -76,8 +76,11 @@ h1, h2 {
 color: #fff;
 font-size: 2.5em;
 }
+.navbar-brand:hover{
+	color: unset !important;
+}
 
-.navbar-default .navbar-brand a:hover {
+.navbar-default  {
 	color: #fff;
 }
 .navbar-default .navbar-nav {
@@ -85,7 +88,7 @@ font-size: 1.3em;
 font-weight: 500;
 }
 	.navbar-default .navbar-nav > li > a:hover {
-		color: #808080; /* Dark Grey */
+		color: #808080;  /*Dark Grey Menu*/
 	}
 
 .navbar-default .leaf {
@@ -297,7 +300,7 @@ font-weight: 500;
 }
 
 .about-header {
-	color: #808080;
+	color: #808080; /*About Page Name*/
     font-size: 5em;
     position: absolute;
     left: 200px;
@@ -585,7 +588,7 @@ footer {
 	}
 
 	.navbar-default .navbar-brand {
-	color: #fff;
+	color: #fff;/*4*/
 	font-size: 1.5em;
 }
 

@@ -1,0 +1,376 @@
+/*Colors
+#f9f9f9--light grey
+#ddd--light grey
+#COCOCO--light grey
+*/
+
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  background-color: grey;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0px;
+}
+
+ header {
+  background-color: transparent;
+  color: black;
+  margin: 0px;
+}
+  header a:link {
+    color: black;
+  }
+  header a:visited {
+    color: black;
+  }
+  header a:active {
+    color: black;
+  }
+h2 {
+    font-size: 24px;
+    padding-left: 4%;
+}
+
+h3 {
+  padding-left: 4%;
+}
+
+p {
+  padding: 0 6% 0px 4%;
+}
+
+/*Logo Styles*/
+.logo--font-div {
+  position: relative;
+}
+.logo--font-position {
+  position: absolute;
+  top: 50%;
+  height: 40px;
+  left: 65px;
+  margin-top: -60px;
+}
+.tagline--font-position {
+  position: absolute;
+  top: 80%;
+  height: 10px;
+  left: 68px;
+  margin-top: -20px;
+}
+
+.logo--font-family {
+  font-family: 'Alegreya', serif;
+}
+.logo--font-size {
+  font-size: 40px;
+}
+.logo--font-color {
+  color: red;
+}
+
+.tagline--font-size {
+  font-size: 10px;
+}
+.tagline--font-weight {
+  font-weight: lighter;
+}
+/*Container Styles*/
+#wrapper {
+  background-color: #fff;
+  min-height: 400px;
+  height: 100%;
+  margin-bottom: -150px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+.content--first-column {
+  background-color: #fff;
+  float: left;
+  width: 50%;
+}
+.content--second-column {
+  background-color: #fff;
+  float: left;
+  width: 50%;
+}
+
+/* Navigation Styles*/
+.navbar {
+  background-color: #000;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: #fff;
+  float: left;
+  list-style-type: none;
+  margin: 0px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Home Page Register Button */
+.calltoaction--text {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  right: 29%;
+  top: 35%;
+}
+#calltoaction--header-text {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0px;
+}
+
+#calltoaction--paragraph {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+#calltoaction--button {
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 15px;
+}
+#calltoaction--button:hover {
+  background-color: #C0C0C0;
+}
+#calltoaction--button a {
+  color: #000;
+  text-decoration: none;
+}
+#calltoaction--button a:visited {
+  color: #000;
+}
+
+
+
+/* Images*/
+.wrapper--background-image {
+  background-image: url(img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+#logo--image-styles {
+  background-image: url('img/logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 50px;
+  padding: 10px 0px 0px 0px;
+}
+
+.photo--styles {
+  display: block;
+  padding: 15px 0px;
+  margin: 0 auto;
+  max-width: 400px;
+  min-width: 150px;
+  width: 100%;
+}
+
+/*Staff Styles*/
+.staff--image-text {
+  margin-top: 30px;
+  text-align: center;
+}
+.backtotop--text-styles {
+  text-align: right;
+}
+  .backtotop--text-styles > a:link {
+    color: blue;
+  }
+  .backtotop--text-styles > a:visited {
+    color: purple;
+  }
+  .backtotop--text-styles > a:active {
+    color: green;
+  }
+  .second--column--paddingtop {
+    padding-top: 53px;
+  }
+    .second--column--paddingtopstaff, .second--column--paddingtopgallery {
+      padding-top: 72.75px;
+    }
+
+    .content--first-column, .content--second-column {
+      padding-bottom: 150px;
+    }
+/* Policy Styles*/
+.dance--links-padding {
+  padding-left: 4%;
+}
+
+/*Locations Styles*/
+.location--alignment-styles {
+  text-align: center;
+}
+ /*Class Description Styles*/
+ .table_style {
+   padding-left: 4%;
+   padding-bottom: 1%;
+ }
+
+td {
+  border: 1px solid rgba(192, 192, 192, 0.4);
+  padding: 5px;
+}
+
+.classdescription--padding-styles {
+  width: 82px;
+}
+
+/*Class Schedule Styles*/
+.calltoregister--text-styles {
+  color: red;
+}
+
+#scroll--link-location {
+  text-align: right;
+}
+
+
+
+
+/*Footer Styles*/
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  margin: 0px;
+  padding: 6px 0px;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+}
+
+#copyright--text {
+  font-size: 0.7em;
+  margin: 0px;
+  padding-top: 1%;
+  text-align: center;
+}
+.validator--text {
+  color: #fff;
+  font-size: .9em;
+  text-align: left;
+}
+
+
+i {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 1300px) {
+header {
+ background-color: #fff;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  #wrapper {
+    width: 100%;
+  }
+  .content--first-column {
+    width: 100%;
+  }
+  .content--second-column {
+    padding-bottom: 150px;
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    left: 0%;
+  }
+  .navbar a, .dropdown .dropbtn {
+    font-size: .8em;
+  }
+
+  .second--column--paddingtop {
+    padding-top: 0px;
+  }
+    .second--column--paddingtopstaff, .second--column--paddingtopgallery {
+      padding-top: 0px;
+    }
+    .content--first-column {
+      padding-bottom: 0px;
+    }
+    #calltoaction--button {
+      background-color: #fff;
+      border-radius: 5px;
+      font-size: 1em;
+      padding: 15px;
+    }
+    #calltoaction--button:hover {
+      background-color: #C0C0C0;
+    }
+    #calltoaction--button a {
+      color: #000;
+      text-decoration: none;
+    }
+    #calltoaction--button a:visited {
+      color: #000;
+    }
+
+
+
+}
