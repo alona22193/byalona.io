@@ -82,6 +82,8 @@ article.article--container-size {
 }
 
 /* Section */
+
+
 li.contentlinks--spacing {
   padding-top: 20px;
 }
@@ -96,6 +98,10 @@ p.paragheadings--example-font {
 
 li {
   line-height: 1.8em;
+}
+
+a.curlytalesDescript-linkStyle {
+  text-decoration: underline !important;
 }
 
 /* Footer */
