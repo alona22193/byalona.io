@@ -47,7 +47,7 @@ html {
 	background-size: cover;
 }
 
-p, nav, {
+p, nav {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -118,7 +118,7 @@ font-weight: 500;
 
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  text-shadow: 0 1px 0 rga(255,255, 255, .25);
+  text-shadow: 0 1px 0 rgba(255,255, 255, .25);
 }
 	/***Link Color Hover Statr***/
 
@@ -138,14 +138,13 @@ font-weight: 500;
 	display: block;
 	display: table-cell;
 	height: 520px;
-	margin: none;
+	margin: 0;
 	padding-top: 80px;
-	vertical-align: middle;
 }
 .inner-2 {
 	display: table-row;
 	height: 100px;
-	margin: none;
+	margin: 0;
 	vertical-align: middle;
 }
 
@@ -175,7 +174,6 @@ font-weight: 500;
 	color: #fff;
 	display: block;
 	font: 5rem;
-	padding-top: px;
 }
 .fa a:hover {
 	text-decoration: none;
@@ -377,7 +375,7 @@ font-weight: 500;
 
 }
 	.success_greeting_second {
-		font-size: 40px.;
+		font-size: 40px;
 	}
 
 .success_container_padding, .error_container_padding {
@@ -393,9 +391,7 @@ font-weight: 500;
 	background-color: #d1cfd1; /* Medium Grey */
 }
 
-.contact_page_height {
 
-}
 
 .email-area {
 	background-color: #fff;
@@ -594,7 +590,7 @@ footer {
 
 	.navbar-default .navbar-nav > li > a {
   	color: #fff;
-  	text-shadow: 0 1px 0 rga(255,255, 255, .25);
+  	text-shadow: 0 1px 0 rgba(255,255, 255, .25);
 }
 
 	.pull-down {
